@@ -1,13 +1,29 @@
-div static {
-h1 {
+.index-body h1 {
     text-align: center;
 }
-img {
+.index-body img {
     position: static;
     margin: 20px;
 }
-body {
+.index-body {
     height: 200vh;
     background-color: skyblue;
     font-family: 'Comic Sans MS', cursive;
+}
+.relative-body h1 {
+    text-align: center;
+}
+.relative-body img {
+    position: relative;
+    margin: 20px;
+}
+.relative-body {
+    height: 200vh;
+    background-color: lightgreen;
+    font-family: 'Comic Sans MS', cursive;
+}
+.relative-page {
+    position: static;
+    margin: 20px;
+    transform: translate(100px);
 }
