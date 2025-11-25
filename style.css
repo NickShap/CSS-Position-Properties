@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+img {
+    position: static;
+    margin: 20px;
+}
+body {
+    height: 200vh;
+    background-color: skyblue;
+    font-family: 'Comic Sans MS', cursive;
+}
