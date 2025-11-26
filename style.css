@@ -16,6 +16,7 @@
 .relative-body img {
     position: relative;
     margin: 20px;
+    transform: translate(200px);
 }
 .relative-body {
     height: 200vh;
@@ -23,7 +24,23 @@
     font-family: 'Comic Sans MS', cursive;
 }
 .relative-page {
-    position: static;
+    position: relative;
     margin: 20px;
-    transform: translate(100px);
+}
+.fixed-body h1 {
+    text-align: center;
+}
+.fixed-body img {
+    position: fixed;
+    margin: 20px;
+    transform: translate(200px);
+}
+.fixed-body {
+    height: 200vh;
+    background-color: orange;
+    font-family: 'Comic Sans MS', cursive;
+}
+.fixed-page {
+    position: fixed;
+    margin: 20px;
 }
